@@ -15,3 +15,12 @@ function fancyAlert(arg) {
   }
 }
 ```
+
+```php
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
